@@ -1,0 +1,17 @@
+/**:
+  ros__parameters:
+    topics:
+      path_topic_name: "waypoints"
+      odom_topic_name: "carla/ego_vehicle/odometry"
+      status_topic_name: "carla/ego_vehicle/vehicle_status"
+    ego_vehicle:
+      target_speed: 0.5 # between 0 and 1
+    PID:
+      Kp: 1.0
+      Ki: 0.0
+      Kd: 0.0
+    PurePursuit:
+      wheel_base: 2.0   # meters
+      Kdd: 1.0
+      min_ld: 1.0         # meters
+      max_ld: 5.0        # meters
